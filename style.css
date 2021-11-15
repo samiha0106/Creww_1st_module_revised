@@ -1,0 +1,269 @@
+body {
+  font-family: "Hiragino Kaku Gothic ";
+  height: 2000px;
+}
+
+/* 1st Segment */
+.Information-Investment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 700px;
+  height: 400px;
+  position: relative;
+  left: 280px;
+  top: 50px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 2px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.Information-Investment__title {
+  position: relative;
+  right: 300px;
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.Information-Investment__line {
+  width: 700px;
+  height: 0px;
+  left: 0px;
+  top: 4rem;
+  border: 1px solid #e6e6e6;
+}
+.Information-Investment__info-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.Information-Investment__info-content__info-items__year {
+  width: 50px;
+  height: 10px;
+  position: relative;
+  right: 200px;
+  top: 20px;
+}
+.Information-Investment__info-content__info-items__tyear {
+  width: 50px;
+  height: 10px;
+  position: relative;
+  right: 210px;
+  top: 20px;
+}
+.Information-Investment__info-content__info-items__logo {
+  position: relative;
+  right: 171px;
+  top: 10px;
+}
+.Information-Investment__info-content__info-items__name {
+  position: relative;
+  right: 150px;
+  top: 20px;
+}
+
+.Information-Investment__info-content__info-items__number {
+  position: relative;
+  right: 120px;
+  top: 20px;
+}
+
+.Information-Investment__info-content__details {
+  position: relative;
+  right: 40px;
+  top: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Information-Investment__info-content__details__bar {
+  border: 1px solid #c8c8c8;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.Information-Investment__info-content__details__sdesc {
+  position: relative;
+  right: 70px;
+}
+
+.Information-Investment__info-content__details__tdesc {
+  position: relative;
+  right: 70px;
+}
+
+/* 2nd Segment */
+
+/* .flex-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+position:relative;
+width:700px;
+height:300px;
+left: 280px;
+top:70px;
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+box-sizing: border-box;
+border-radius: 2px;
+flex: none;
+order: 5;
+flex-grow: 0;
+margin: 30px 0px;
+}
+
+.flex-box__title{
+  position: relative;
+  right: 300px;
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.flex-box__line{
+  width:700px;
+  height: 0px;
+  left: 0px;
+  top:5rem;
+  border: 1px solid #e6e6e6;
+}
+.flex-box__hero-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-box__year{
+  width: 50px;
+  height: 10px;
+  position: relative;
+  right:70px;
+  top: 20px;
+}
+
+.flex-box__type{
+  width: 50px;
+  height: 20px;
+  position: relative;
+  right:50px;
+  top: 20px;
+  
+}
+
+.flex-box__details{
+font-size: 14px;
+position: relative;
+  right:30px;
+  top:5px;
+} */
+
+@media screen and (max-width: 768px) {
+  /* 1st Segment */
+  .Information-Investment {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    width: 770px;
+    height: 1040px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  .Information-Investment__title {
+    right: 290px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .Information-Investment__line {
+    width: 805px;
+    height: 0px;
+    left: 0px;
+    top: 4rem;
+    border: 1px solid #e6e6e6;
+  }
+  .Information-Investment__info-content {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+  .Information-Investment__info-content__info-items__year {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    right: 150px;
+    top: 30px;
+  }
+  .Information-Investment__info-content__info-items__tyear {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    right: 150px;
+    top: 30px;
+  }
+  .Information-Investment__info-content__info-items__logo {
+    position: relative;
+    right: 250px;
+    top: 70px;
+    width: 70px;
+  }
+  .Information-Investment__info-content__info-items__name {
+    position: relative;
+    right: 220px;
+    top: 80px;
+    width: 120px;
+  }
+
+  .Information-Investment__info-content__info-items__number {
+    position: relative;
+    right: 190px;
+    top: 80px;
+    width: 150px;
+  }
+  .Information-Investment__info-content__details {
+    position: relative;
+    right: 150px;
+    top: 70px;
+    width: 400px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Information-Investment__info-content__details__sdesc {
+    position: relative;
+    right: 5px;
+  }
+
+  .Information-Investment__info-content__details__famount {
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    margin-left: 30px;
+  }
+  .Information-Investment__info-content__details__tdesc {
+    position: relative;
+    right: 0px;
+    top: 20px;
+  }
+
+  .Information-Investment__info-content__details__samount {
+    width: 79px;
+    height: 27px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  /* 2nd Segment */
+}
